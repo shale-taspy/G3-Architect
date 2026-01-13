@@ -12,11 +12,15 @@
     box-sizing: border-box;
 }
 
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
 .navbar{
 display: flex;
 justify-content: space-around;
 align-items: center;
-margin-top: 85px;
+padding-top: 85px;
 text-decoration: none;
 }
 
@@ -56,4 +60,38 @@ text-decoration: none;
     font-size: 64px;
     font-weight: 700;
     line-height: 75px;
+}
+
+.navbar-content p{
+    color: #424242;
+    text-align: center;
+    font-style: regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+}
+.btn-1{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color:white ;
+    border-radius: 8px;
+    box-shadow: none;
+    font-style: semi-bold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 32px;
+    margin-left: 869px;
+    padding: 20px 25px;
+    border: none;
+}
+
+.navbar-image{
+    margin-top: 50px;
+    margin-left: 240px;
+    max-width: 144px;
+    height: 700px;
+    padding-bottom: 45px;
 }
